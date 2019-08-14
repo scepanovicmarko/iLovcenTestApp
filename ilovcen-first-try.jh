@@ -1,0 +1,31 @@
+enum FieldType {
+ 	NUMBER,
+    TEXT,
+    DATE,
+    BOOLEAN,
+    LONGTEXT
+}
+
+entity Field {
+    id String required,
+    name String required,
+    value String
+    type FieldType,
+}
+
+entity FieldGroup {
+    id String required,
+    name String required,
+    value String
+}
+
+entity Policy {
+    id String required,
+    name String,
+}
+
+relationship ManyToOne {
+	FieldGroup to Policy{fieldGroups(name)},
+    Field to Policy{fields(name)},
+    Field to FieldGroup{fields(name)},   
+}
