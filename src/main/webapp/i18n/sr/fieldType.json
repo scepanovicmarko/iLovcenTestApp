@@ -1,0 +1,12 @@
+{
+  "iLovcenTestApp": {
+    "FieldType": {
+      "null": "",
+      "NUMBER": "NUMBER",
+      "TEXT": "TEXT",
+      "DATE": "DATE",
+      "BOOLEAN": "BOOLEAN",
+      "LONGTEXT": "LONGTEXT"
+    }
+  }
+}

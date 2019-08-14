@@ -1,0 +1,42 @@
+{
+    "name": "Field",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "value",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "type",
+            "fieldType": "FieldType",
+            "fieldValues": "NUMBER,TEXT,DATE,BOOLEAN,LONGTEXT"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "policy",
+            "otherEntityRelationshipName": "fields"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "fieldGroup",
+            "otherEntityRelationshipName": "fields"
+        }
+    ],
+    "changelogDate": "20190814073157",
+    "entityTableName": "field",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

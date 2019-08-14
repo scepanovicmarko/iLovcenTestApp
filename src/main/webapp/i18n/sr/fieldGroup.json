@@ -1,0 +1,25 @@
+{
+  "iLovcenTestApp": {
+    "fieldGroup": {
+      "home": {
+        "title": "Field Groups",
+        "createLabel": "Kreiraj novi Field Group",
+        "createOrEditLabel": "Kreirajte ili izmenite Field Group",
+        "notFound": "No Field Groups found"
+      },
+      "created": "Kreiran je novi Field Group pod nazivom {{ param }}",
+      "updated": "Field Group pod nazivom {{ param }} je ažuriran",
+      "deleted": "Field Group pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Field Group pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Field Group"
+      },
+      "name": "Name",
+      "value": "Value",
+      "policy": "Policy",
+      "fields": "Fields"
+    }
+  }
+}

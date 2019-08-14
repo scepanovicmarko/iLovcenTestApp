@@ -1,0 +1,38 @@
+{
+    "name": "FieldGroup",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "value",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "policy",
+            "otherEntityRelationshipName": "fieldGroups"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "field",
+            "otherEntityRelationshipName": "fieldGroup",
+            "relationshipName": "fields"
+        }
+    ],
+    "changelogDate": "20190814073158",
+    "entityTableName": "field_group",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,25 @@
+{
+  "iLovcenTestApp": {
+    "fieldGroup": {
+      "home": {
+        "title": "Field Groups",
+        "createLabel": "Create a new Field Group",
+        "createOrEditLabel": "Create or edit a Field Group",
+        "notFound": "No Field Groups found"
+      },
+      "created": "A new Field Group is created with identifier {{ param }}",
+      "updated": "A Field Group is updated with identifier {{ param }}",
+      "deleted": "A Field Group is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Field Group {{ id }}?"
+      },
+      "detail": {
+        "title": "Field Group"
+      },
+      "name": "Name",
+      "value": "Value",
+      "policy": "Policy",
+      "fields": "Fields"
+    }
+  }
+}

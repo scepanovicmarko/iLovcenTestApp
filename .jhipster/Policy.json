@@ -1,0 +1,32 @@
+{
+    "name": "Policy",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "fieldGroup",
+            "otherEntityRelationshipName": "policy",
+            "relationshipName": "fieldGroups"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "field",
+            "otherEntityRelationshipName": "policy",
+            "relationshipName": "fields"
+        }
+    ],
+    "changelogDate": "20190814073159",
+    "entityTableName": "policy",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
