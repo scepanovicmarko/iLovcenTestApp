@@ -1,0 +1,24 @@
+{
+  "iLovcenTestApp": {
+    "policy": {
+      "home": {
+        "title": "Policies",
+        "createLabel": "Kreiraj novi Policy",
+        "createOrEditLabel": "Kreirajte ili izmenite Policy",
+        "notFound": "No Policies found"
+      },
+      "created": "Kreiran je novi Policy pod nazivom {{ param }}",
+      "updated": "Policy pod nazivom {{ param }} je ažuriran",
+      "deleted": "Policy pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Policy pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Policy"
+      },
+      "name": "Name",
+      "fieldGroups": "Field Groups",
+      "fields": "Fields"
+    }
+  }
+}

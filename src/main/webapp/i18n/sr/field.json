@@ -1,0 +1,26 @@
+{
+  "iLovcenTestApp": {
+    "field": {
+      "home": {
+        "title": "Fields",
+        "createLabel": "Kreiraj novi Field",
+        "createOrEditLabel": "Kreirajte ili izmenite Field",
+        "notFound": "No Fields found"
+      },
+      "created": "Kreiran je novi Field pod nazivom {{ param }}",
+      "updated": "Field pod nazivom {{ param }} je ažuriran",
+      "deleted": "Field pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Field pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Field"
+      },
+      "name": "Name",
+      "value": "Value",
+      "type": "Type",
+      "policy": "Policy",
+      "fieldGroup": "Field Group"
+    }
+  }
+}
